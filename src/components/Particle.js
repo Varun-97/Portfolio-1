@@ -7,19 +7,19 @@ function Particle() {
       params={{
         particles: {
           number: {
-            value: 160,
+            value: 200,
             density: {
               enable: true,
-              value_area: 1500,
+              value_area: 1000,
             },
           },
           line_linked: {
             enable: false,
-            opacity: 0.03,
+            opacity: 0.09,
           },
           move: {
             direction: "right",
-            speed: 0.05,
+            speed: 0.08,
           },
           size: {
             value: 1,
